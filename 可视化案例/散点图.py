@@ -17,7 +17,7 @@ y_values = [a**2 for a in x_values]
 # plt.scatter(x_values, y_values, c='red', edgecolor='none', s=5)  # 点内部颜色为red，外部轮廓none
 # plt.scatter(x_values, y_values, c=(0, 0, 0.8), edgecolor='none', s=5)  # RGB颜色模式：值越接近0，指定的颜色越深；值越接近1，指定的颜色越浅
 # 颜色映射
-plt.scatter(x_values, y_values, c=y_values, cmap=plt.cm.Blues, edgecolor='none', s=5)  # 将参数c设置为y值列表，并用参数cmap告诉pyplot使用哪一个颜色映射
+plt.scatter(x_values, y_values, c=y_values, cmap=plt.cm.Blues, edgecolor='none', s=1)  # 将参数c设置为y值列表，并用参数cmap告诉pyplot使用哪一个颜色映射
 
 # 设置图标标题并给坐标轴加上标签
 plt.title("Square Numbers", fontsize=24)
