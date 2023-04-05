@@ -1,8 +1,11 @@
-# from pygal.i18n import COUNTRIES
+# from pygal.i18n import COUNTRIES  # 以前版本的代码
 from pygal_maps_world.i18n import COUNTRIES
 
-for country_code in sorted(COUNTRIES.keys()):
-    print(country_code, COUNTRIES[country_code])
+
+# # 测试国家和国别码的对应关系
+# for country_code in sorted(COUNTRIES.keys()):
+#     print(country_code, COUNTRIES[country_code])
+
 
 def get_country_code(country_name):
     """根据指定的国家，返回Pygal使用的两个字母的国别码"""
